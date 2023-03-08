@@ -1,0 +1,15 @@
+<div class="skeleton"  *ngIf="!messageSuccess">
+  <div class="toolbar">
+    <span class="skeleton-box" style="width: 75%"></span>
+    <span class="skeleton-box" style="width: 45%"></span>
+  </div>
+  <div class="data">
+    <span class="skeleton-box" style="width: 75%"></span>
+    <span class="skeleton-box" style="width: 65%"></span>
+    <span class="skeleton-box" style="width: 65%"></span>
+    <span class="skeleton-box" style="width: 65%"></span>
+    <span class="skeleton-box" style="width: 75%"></span>
+    <span class="skeleton-box" style="width: 75%"></span>
+  </div>
+</div>
+<app-rich-text-editor *ngIf="messageSuccess"></app-rich-text-editor>

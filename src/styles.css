@@ -1,0 +1,20 @@
+/* You can add global styles to this file, and also import other style files */
+body {
+    height: 60vh;
+    background-color: #686de0;
+}
+
+.title-rich{
+    width: 100%;
+    margin-top: 10%;
+    display: flex;
+    justify-content: center;
+    font-family: 'Mandali', sans-serif;
+    color: #fff;
+}
+
+.rich-editor{
+    height: 60vh;
+    display: grid;
+    place-content: center;
+}
